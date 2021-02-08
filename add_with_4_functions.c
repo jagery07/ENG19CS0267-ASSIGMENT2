@@ -23,7 +23,7 @@ return (first_num+second_num);
 }
 void print(int sum)
 {
- printf("sum of the 2 numbers is = %d\n",sum);
+ printf("sum of two numbers is = %d\n",sum);
 }
 
 int main()
