@@ -5,7 +5,7 @@
       float h,b,d,vol;
       printf("Enter the height,breadth and depth :");
       scanf("%f%f%f",&h,&b,&d);
-      vol=((h*b**d)+(d/b))/3;
+      vol=((h*b*d)+(d/b))/3;
       printf("volume of the tromboloid is %f",vol);
       return 0;
      }
