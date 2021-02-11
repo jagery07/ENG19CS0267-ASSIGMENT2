@@ -1,10 +1,11 @@
 //Write a program to add two user input numbers using 4 functions.
+
 #include<stdio.h>
 
 int first_num()
 {
 int num;
-printf("Enter the first number ");
+printf("Enter first number ");
 scanf("%d",&num);
 return num;
 }
@@ -12,7 +13,7 @@ return num;
 int second_num()
 {
 int num;
-printf("enter the second number ");
+printf("enter second number ");
 scanf("%d",&num);
 return num;
 }
@@ -23,7 +24,7 @@ return (first_num+second_num);
 }
 void print(int sum)
 {
- printf("sum of two numbers is = %d\n",sum);
+ printf("Sum of %f and %f =%f",first_num,second_num,sum);
 }
 
 int main()
